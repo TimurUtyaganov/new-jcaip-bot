@@ -46,6 +46,7 @@ theme: /
             "Завершение сессии" -> /Timeout
 
     state: TextAndButtons
+        q!: кнопки с ссылкой
         a: Текст.
         buttons:
             {text: "Кнопка со ссылкой", url: "https://295628.selcdn.ru/mybroker/tariffs/tariff_plan_trader.pdf"}
@@ -184,6 +185,8 @@ theme: /
     state: Raw
         q!: *сырой*
         a: {{toPrettyString($request.rawRequest)}}
+        intent: /Новый интент || toState = "/TextAndButtons"
+        event: noMatch || toState = "./"
 
     state: Hello
         a: Привет привет

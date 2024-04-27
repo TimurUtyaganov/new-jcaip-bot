@@ -1,7 +1,7 @@
 {
   "project" : {
-    "id" : "test_bot_craft_talk_-1000001-NPu",
-    "name" : "test_bot_craft_talk_-1000001-NPu",
+    "id" : "testbot-1000151455-Gqo",
+    "name" : "testbot-1000151455-Gqo",
     "folder" : "/platform"
   },
   "settings" : {
@@ -21,6 +21,19 @@
     "path" : "/Новый интент",
     "enabled" : true,
     "shared" : false,
+    "phrases" : [ {
+      "text" : "Привет"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Новый интент_1",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
     "classificationRules" : {
       "refs" : [ ]
     },
