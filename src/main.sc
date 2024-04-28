@@ -151,6 +151,8 @@ theme: /
             1. бла
             2. бла
             3. бла
+        script:
+            $response.replies[$response.replies.length - 1].markup = "markdown";    
         buttons:
             {text: "Кнопка со ссылкой", url: "https://295628.selcdn.ru/mybroker/tariffs/tariff_plan_trader.pdf"}
             {text: "Да", transition: "./Да"}
